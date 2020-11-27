@@ -15,3 +15,4 @@ elif med > 10:
     print("Porfavor verifique a suas notas, a média limite é 10 !!!")
 else:
     print("A sua média é {}".format(med)+ " e você foi reprovado")
+    print("kkk")
