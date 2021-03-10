@@ -1,6 +1,6 @@
 "Plugins
 call plug#begin()
-Plug 'morhetz/gruvbox'
+Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown'}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'jiangmiao/auto-pairs'
@@ -13,20 +13,16 @@ Plug 'jistr/vim-nerdtree-tabs'
 Plug 'dense-analysis/ale'
 Plug 'ayu-theme/ayu-vim'
 Plug 'Yggdroot/indentLine'
-Plug 'deoplete-plugins/deoplete-jedi'
-if has('nvim')
- Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-else
-Plug 'Shougo/deoplete.nvim'
-Plug 'roxma/nvim-yarp'
-Plug 'roxma/vim-hug-neovim-rpc'
-endif
 Plug 'vim-python/python-syntax'
 Plug 'ryanoasis/vim-devicons'
 Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'junegunn/vim-emoji'
+Plug 'roxma/nvim-completion-manager'
 call plug#end()
+
+"ConfigurarMarkdowneemojiesinppets
 
 "Autocmd
 autocmd vimEnter * NERDTree
@@ -62,5 +58,5 @@ nnoremap <leader>sv :source ~/.config/nvim/init.vim<cr>
 nnoremap <leader>H :History<cr>
 nnoremap <leader>A :Ag<space>
 nnoremap <leader>F :Files<cr>
-
+nnoremap<leader>B :Buffers<cr>
 
