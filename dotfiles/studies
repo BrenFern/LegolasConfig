@@ -1,0 +1,48 @@
+#Dados
+#:> Informações
+#:> ativos
+#:> Sistema de dados
+#:> Cálculos
+#:> Linguagem de alto nível
+#:> Linguagem de baixo nível
+#:> Linguagem de máquina
+#:> Linguagem de montagem
+#:> Código/Módulo objeto
+#:> Código fonte
+#:> Montador
+#:> Compilador
+#:> Linker
+#:> Depurador
+
+#Sistema operacional
+#:> Camadas
+#:> Kernel
+#:> Bibliotecas
+#:> Bibliotecas de rotina
+#:> Utilitários
+#:> Sytem calls
+#:> Rotinas
+#:> Corrotinas
+#:> Instruções
+#:> Tipos de sistema operacional
+#:> Estrutura de sistemas operacionais
+        Kernel monolitíco
+        Microkernel
+        Exonúcleos
+        Kernel híbrido
+        Modelo cliente-servidor
+        Máquinas virtuais e paravirtualização
+#:> Gerenciamento de memória
+        Memória virtual
+        Swap        
+        Cache
+        Time sharing
+        Paginação
+#:> Gerenciamento de processador
+        Processos
+        Multiprogramação
+        Deamons
+        Threads
+#:> Gerenciamento de discos
+#:> Entrada/saida
+        Barramentos
